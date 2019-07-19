@@ -18,6 +18,7 @@ A chatbot with auth service using AWS Amplify. AWS Amplify provides a framework 
 * If you are using AWS Amplify for the **first time**, configure the cli using **`amplify configure`**. This step takes you through a series of steps, which inclues logging in to the console, creating the user, giving permissions etc.
 * Once this is done, run **`amplify init`**, which setups your environment etc.
 * Add the required libraries like **interactions, auth** using **`amplify add <libary-name>`**.
+* Run the app using: **`npm start`**.
 
 ## Contributors
 
