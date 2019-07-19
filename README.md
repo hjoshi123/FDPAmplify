@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AWS Amplify Demo (Faculty Development Program 2019)
 
-## Available Scripts
+A chatbot with auth service using AWS Amplify. AWS Amplify provides a framework to use many AWS services like cognito auth and lex with just few lines of code. Demonstrated and explained during the Faculty Development Program 2019 conducted by MSRIT.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+### Pre-requisites
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Node.JS
+* npm
+* create-react-app (for easier templates)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Steps for install
 
-### `npm test`
+* Install amplify cli initially using the command **`npm i -g @aws-amplify/cli`**.
+* Clone the project using the following command: `git clone https://github.com/hjoshi123/FDPAmplify`
+* Next Install the dependencies mentioned in the app using: **`npm install`**
+* If you are using AWS Amplify for the **first time**, configure the cli using **`amplify configure`**. This step takes you through a series of steps, which inclues logging in to the console, creating the user, giving permissions etc.
+* Once this is done, run **`amplify init`**, which setups your environment etc.
+* Add the required libraries like **interactions, auth** using **`amplify add <libary-name>`**.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributors
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [Hemant Joshi](https://github.com/hjoshi123/)
+* [V R Karthik](https://github.com/vrkarthik14)
+* Dr. Mydhili.K. Nair (Professor, Dept of ISE)
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Check out the slides here](https://docs.google.com/presentation/d/1pk99cfzZY_rjMsBGo66Sm2XY_y9CuNjUcCPFgt05wbo/edit?usp=sharing)

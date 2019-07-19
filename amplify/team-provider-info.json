@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amproj-dev-20190719234632-authRole",
+            "UnauthRoleArn": "arn:aws:iam::021675517971:role/amproj-dev-20190719234632-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::021675517971:role/amproj-dev-20190719234632-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amproj-dev-20190719234632-deployment",
+            "UnauthRoleName": "amproj-dev-20190719234632-unauthRole",
+            "StackName": "amproj-dev-20190719234632",
+            "StackId": "arn:aws:cloudformation:us-east-1:021675517971:stack/amproj-dev-20190719234632/57580550-aa51-11e9-8845-0ae8cc519968"
+        },
+        "categories": {
+            "auth": {
+                "amproje407641d": {}
+            }
+        }
+    }
+}

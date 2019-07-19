@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"amproje407641d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"interactions": {
+		"lexadfd85fe": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}
